@@ -10,20 +10,19 @@
     <packaging>war</packaging>
 
     <name>mmall Maven Webapp</name>
-    <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-
         <org.springframework.version>4.0.0.RELEASE</org.springframework.version>
         <org.mybatis.version>3.4.1</org.mybatis.version>
         <org.mybatis.spring.version>1.3.0</org.mybatis.spring.version>
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-servlet-api</artifactId>
@@ -60,7 +59,6 @@
             <version>${org.springframework.version}</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
@@ -78,7 +76,6 @@
             <version>${org.mybatis.version}</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
@@ -95,9 +92,7 @@
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
             <version>1.4</version>
-            <!--<scope>runtime</scope>-->
         </dependency>
-
 
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -124,13 +119,11 @@
             <version>20.0</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
         </dependency>
-
 
         <dependency>
             <groupId>commons-collections</groupId>
@@ -138,12 +131,10 @@
             <version>3.2.1</version>
         </dependency>
 
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <!--<scope>test</scope>-->
         </dependency>
 
         <dependency>
@@ -152,25 +143,18 @@
             <version>2.3</version>
         </dependency>
 
-
-        <!-- id加密解密 -->
         <dependency>
             <groupId>org.hashids</groupId>
             <artifactId>hashids</artifactId>
             <version>1.0.1</version>
         </dependency>
 
-
-        <!-- ftpclient -->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
             <version>3.1</version>
         </dependency>
 
-        <!-- file upload -->
-
-        <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
@@ -182,9 +166,6 @@
             <artifactId>commons-io</artifactId>
             <version>2.0.1</version>
         </dependency>
-
-
-        <!-- mybatis pager -->
 
         <dependency>
             <groupId>com.github.pagehelper</groupId>
@@ -204,8 +185,6 @@
             <version>0.9.4</version>
         </dependency>
 
-
-        <!-- alipay -->
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
